@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ashish Roy Shayon</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
-<body class="libre-caslon-display-regular">
+<body>
     <header class="header">
         <nav>
             <h3 class="nav-title">A<span style="color: blueviolet;">shis</span>H</h3>
@@ -19,11 +20,11 @@
 
         <section class="banner">
                 <div class="short-bio">
-                    <h4 class="banner-grettings">Hey, I am</h4>
+                    <h4 class="banner-greetings">Hey, I am</h4>
                     <h1 class="my-name">Ashish Roy Shayon</h1>
-                    <p  class="banner-des">a full stack web developer with a passion for building dynamic and user-friendly<br>web applications.I specialize in creating seamless digital experiences from the front-end <br>to the back-end.</p>
-                    <button class="btn">Download CV</button>
-                    <button class="btn">Contact</button>
+                    <p  class="banner-des">a full stack web developer with a passion for building dynamic and user-friendly web applications.I specialize in creating seamless digital experiences from the front-end to the back-end.</p>
+                    <button class="btn"><i class="fa-solid fa-download"></i> Download CV</button>
+                    <button class="btn"><i class="fa-solid fa-phone"></i> Contact</button>
                 </div>
                 <img  class="my-photo" src="../portfolio-resources/images/ashish.png" alt="">
         </section>
@@ -47,7 +48,87 @@
             </div>
         </div>
        </section> 
+       <section class="skills">
+        <h3 class="section-title">What I do</h3>
+        <p class="section-description">I have more than 2 months experience learning to build software. Below is a quick overview of my main technical skill sets and technologies I use. Want to find out more about my experience? Check out my online resume and project portfolio.</p>
+        <div class="skill-set">
+            <div class="skill">
+                <img src="../portfolio-resources/images/icons/js.png" alt="">
+            </div>
+            <div class="skill">
+                <img src="../portfolio-resources/images/icons/react.png" alt="">
+            </div>
+            <div class="skill">
+                <img src="../portfolio-resources/images/icons/nodejs.png" alt="">
+
+            </div>
+            <div class="skill">
+                <img src="../portfolio-resources/images/icons/mongo.png" alt="">
+            </div>    
+            
+        </div>
+       </section>
+       <section class="resume">
+        <h3 class="section-title">Summary of my Resume</h3>
+        <div class="content-holder">
+        <div class="resume-contents">
+            <h3>Education</h3>
+            <h4>B.Sc in Software Engineering</h4>
+            <h5>IIT, University of Dhaka | 2024-Current</h6>
+            <p class="section-description">Learnt courses like Data structures, Object
+                oriented programming,<br>statistics, calculus etc
+            </p>
+        </div>
+        <div class="resume-contents">
+            <h3>Experience</h3>
+            <h4>Full Stack Web Developer</h4>
+            <h5>Dreams It | 2024-Current</h6>
+            <p class="section-description">Built many projects in dream using tech stack<br>such as mern and springboot.
+            </p>
+        </div>
+        </div>
+        <button class="btn"><i class="fa-solid fa-download"></i> Download CV</button>
+       </section>
     </main>
+
+    <footer class="contact">
+        <div class="contents">
+            <h3 class="section-title">Let's Connect</h3>
+            <p>Please fill out the form on this section to contact with me <br>or call between 9:00 A.M and 8.00 P.M ET, Monday through Friday.</p>
+            <div class="icon">
+                <a href="https://x.com/ars_du09?s=21" class="icon-link">
+                    <i class="fab fa-twitter"></i>
+                    <span class="link-text"></span>
+                </a>
+                <a href="https://github.com/DevNexus09" class="icon-link icon-github">
+                    <i class="fab fa-github"></i>
+                    <span class="link-text"></span>
+                </a>
+                <a href="https://www.linkedin.com/in/devnexus09/" class="icon-link">
+                    <i class="fab fa-linkedin"></i>
+                    <span class="link-text"></span>
+                </a>
+            </div>
+        </div>
+        <div class="contents">
+            <h3 class="section-title">Message me</h3>
+            <form action="">
+            <label id="name">    
+                <input type="name" placeholder="Your Name">
+            </label>
+            <label id="email">        
+                <input type="email" placeholder="Email">
+            </label>
+            <label id="message">
+                <textarea placeholder="Message" cols="30" rows="10"></textarea>
+            </label>
+            <label>   
+                <input class="btn" type="submit" value="Submit">
+            </label>
+                
+            </form>
+        </div>
+    </footer>
     
 </body>
 </html>
